@@ -1,0 +1,69 @@
+:root{
+    --mainFont:'Playfair Display', serif;
+    --logoColor--:#13659b;
+    --mainColor--:#1e202b;
+    --secondaruColor--:#906440;
+    --sugColor1--:#24353f;
+     --sugColor2--:white;
+    --sugColor3--:rgb(50 53 68);
+}
+body{
+    font-family: var(--mainFont);
+    color: var(--mainColor--);
+    background-color: #f1f1f1;
+    
+}
+a{
+    font-family: var(--mainFont);
+}
+nav{
+ 
+  transition: all 0.5s;
+}
+nav .navbar-brand img{
+    width: 3rem;
+    height: 2.5rem;
+}
+nav .navbar-brand{
+    color: var(--sugColor2--) !important;
+}
+nav .nav-link {
+    font-weight: bolder !important;
+    margin-left: 1rem;
+    font-size: 20px !important;
+    color: var(--sugColor1--) !important;
+}
+#nav{
+    transform: translateY(90%);
+}
+nav .active{
+    border-bottom: 2px solid #9c0000;
+    color:#9c0000 !important;
+}
+.navbarPargraph{
+    font-size: 16px;
+}
+#steelHeader .container .headerImg{
+    /* width: 110%;
+    transform: translateY(15%); */
+   
+}
+#steelHeader .container .headerLogo{
+    background-color: var(--mainColor--);
+}
+#headerInfo nav .active{
+    border: none;
+}
+#headerInfo nav .breadcrumb-item a{
+    color: var(--sugColor1--);
+}
+#headerInfo p{
+    max-width: 800px;
+    font-size: larger;
+}
+.steelHeaderImges{
+    height: 200px;
+}
+.elemnt{
+    height: 150px;
+}

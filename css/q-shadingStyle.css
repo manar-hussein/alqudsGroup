@@ -1,0 +1,260 @@
+
+:root{
+    --mainFont:'Playfair Display', serif;
+    --logoColor--:#13659b;
+    --mainColor--:white;
+    --secondaruColor--:#906440;
+    --sugColor1--:#24353f;
+     --sugColor2--:#1e202b;
+    --sugColor3--:rgb(50 53 68);
+}
+body{
+    font-family: var(--mainFont);
+    background-color: white;
+    color: black;
+}
+nav{
+  background-color: transparent;
+}
+nav .navbar-brand img{
+    width: 3rem;
+    height: 2.5rem;
+}
+nav .navbar-brand{
+    color: var(--mainColor--) !important;
+}
+nav .nav-link {
+    font-weight: bold;
+    margin-left: 1rem;
+    color: var(--mainColor--) !important;
+}
+nav .active{
+    border-bottom: 2px solid var(--logoColor--);
+    color:var(--logoColor--) !important;
+}
+a{
+    font-family: var(--mainFont);
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/q-shading/shading/Wada-award-winning-shade-sail.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+header .headerNav li{
+    border: none;
+
+}
+header .breadcrumb-item a
+{
+    color: white !important;
+}
+.productBtn{
+    left: 0%;
+    bottom: 0%;
+    transform: translateY(50%);
+    width: 100%;
+    
+}
+#products .col-lg-4{
+    transition: all 1s;
+}
+#products .col-lg-4:hover{
+    transform: scale(1.05);
+}
+#products .card .btn{
+    background-color: var(--logoColor--) !important;
+    color: white;
+}
+#products .card img{
+    height: 250px;
+}
+.layer{
+    background-color: rgba(0,0,0,0.9);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+.closBtn{
+  top: 10%;
+  right: 10%;
+}
+
+footer{
+    background-color: var(--logoColor--);
+}
+.test{
+    width: 200px;
+    height: 200px;
+    background-color: #906440;
+}
+#HDPELayer {
+    display: none;
+}
+#PVCLayer{
+    display: none;
+}
+#PergolaLayer{
+    display: none;
+}
+#TentslaLayer{
+    display: none;
+}
+footer a i {
+    transition: all 0.5s;
+  }
+  .icons{
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    transition: all 0.5s;
+  }
+  footer a.icons:hover {
+    background-color: white;
+  }
+  footer a.icons:hover i {
+   color: var(--logoColor--) !important;
+  }
+  #aboutQ-Shading .nav-link{
+    color: var(--logoColor--);
+    transition: all 0.5s;
+  }
+  #aboutQ-Shading .nav-link:hover{
+    color: var(--mainColor--) !important;
+    background-color: var(--logoColor--);
+  }
+  #aboutQ-Shading .nav-link.active{
+    color: var(--mainColor--) !important;
+    background-color: var(--logoColor--);
+  }
+
+  #whyQ-Shading{
+    background-color: #13659B;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='68' stroke-opacity='0.05' %3E%3Ccircle fill='%2313659B' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%231b5f94' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2321588e' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23255287' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23284c80' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%232b4679' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%232c4072' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%232d3a6b' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%232e3464' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%232e2f5c' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%232d2955' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%232d234e' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%232b1e47' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%232a183f' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23281338' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23250e31' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%2323082b' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .serviceImg{
+    height: 235px;
+  }
+  .customCard{
+    height: 130px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 5px gray;
+  }
+  
+  .matrialImg{
+    height: 250px;
+  }
+  #steelLayer{
+    display: none;
+  }
+  #partner{
+    background-color: #13659B;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='68' stroke-opacity='0.05' %3E%3Ccircle fill='%2313659B' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%231b5f94' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2321588e' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23255287' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23284c80' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%232b4679' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%232c4072' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%232d3a6b' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%232e3464' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%232e2f5c' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%232d2955' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%232d234e' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%232b1e47' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%232a183f' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23281338' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23250e31' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%2323082b' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .clients{
+    width: 20%;
+    height: 200px;
+  }
+  @media screen and (max-width:600px) {
+    .clients{
+      width: 20%;
+      height: 100px;
+    }
+    
+  }
+  footer a i.icons{
+    color: var(--logoColor--);
+    transition: all 0.5s;
+  }
+  footer a i.icons:hover{
+    background-color: var(--logoColor--);
+    color: var(--mainColor--);
+  }
+
+  #choicesBtn{
+    display: none;
+  }
+  .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: white;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
+  #spinner{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999999999;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
