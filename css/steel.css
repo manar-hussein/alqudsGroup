@@ -6,6 +6,11 @@
     --sugColor1--:#24353f;
      --sugColor2--:white;
     --sugColor3--:rgb(50 53 68);
+    --darkMain--:#06436f;
+    --darkRed--:#3e1a21;
+    --darkYello-:#e1c21f;
+    --lightRed--:rgb(156 67 82);
+    --lightYello--:rgb(240 227 145);
 }
 body{
     font-family: var(--mainFont);
@@ -58,7 +63,7 @@ nav .active{
     color: var(--sugColor1--);
 }
 #headerInfo p{
-    max-width: 800px;
+    max-width: 900px;
     font-size: larger;
 }
 .steelHeaderImges{
@@ -67,3 +72,42 @@ nav .active{
 .elemnt{
     height: 150px;
 }
+.cImg{
+    height: 125px !important;
+}
+footer{
+    background-color: var(--darkMain--);
+}
+.test{
+    background-color: var(--mainColor--);
+    color: white;
+}
+header .row{
+    background-color: var(--mainColor--);
+}
+.navLayer{
+    display: none;
+}
+.navLayer .nav-link {
+    font-weight: bolder !important;
+    margin-left: 1rem;
+    font-size: 20px !important;
+    color: var(--sugColor1--) !important;
+}
+.backToTopBtn{
+    top: 90%;
+    left: 90%;
+    display: none;
+}
+footer p a{
+    color: var(--darkYello-);
+}
+footer iframe{
+    display: none;
+}
+#visitus p{
+    cursor: pointer;
+}
+
+
+

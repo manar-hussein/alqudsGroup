@@ -1,0 +1,39 @@
+:root{
+    --mainFont:'Playfair Display', serif;
+    --logoColor--:#13659b;
+    --mainColor--:#1e202b;
+    --secondaruColor--:#906440;
+    --sugColor1--:#24353f;
+     --sugColor2--:white;
+    --sugColor3--:rgb(50 53 68);
+}
+body{
+    font-family: var(--mainFont);
+    background-color: var(--sugColor2--);
+    color: var(--mainColor--);
+    overflow: hidden;
+}
+#projects nav .breadcrumb-item a {
+    color: var(--mainColor--) !important;
+    font-weight: bolder;
+    border: none ;
+}
+#projects nav .active{
+    color: #cc0000 !important;
+    border: none;
+    font-weight: bolder;
+}
+.project img{
+    height: 200px;
+}
+.card-body{
+    height: 200px !important;
+}
+#alasherLayer{
+    display: none;
+}
+#DesertRoadBridgesLayer{
+    display: none;
+}
+
+
